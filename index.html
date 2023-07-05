@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Waveform Visualizer</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <canvas id="waveformCanvas"></canvas>
+    <div id="controls-container">
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+        <select id="visualizationSelect">
+            <option value="waveform">Waveform</option>
+            <option value="bars">Bars</option>
+            <option value="dots">Dots</option>
+            <option value="spectrum">Spectrum</option>
+            <option value="circle">Circle</option>
+        </select>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
